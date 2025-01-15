@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ "$1" == "" ]; then
+    DIRECTORY_PATH=command pwd
+    echo $DIRECTORY_PATH;
+fi 
